@@ -1,3 +1,4 @@
+import { ThemeToggle } from "~/components/theme-toggle";
 import logoDark from "./logo-dark.svg";
 import logoLight from "./logo-light.svg";
 
@@ -40,6 +41,7 @@ export function Welcome() {
                             ))}
                         </ul>
                     </nav>
+                    <ThemeToggle />
                 </div>
             </div>
         </main>

@@ -7,6 +7,8 @@ import {
     ScrollRestoration,
 } from "react-router";
 
+import { ThemeProvider } from "~/components/theme-provider";
+
 import type { Route } from "./+types/root";
 import "./app.css";
 
@@ -36,7 +38,9 @@ export function Layout({ children }: { children: React.ReactNode }) {
                 <Links />
             </head>
             <body>
-                {children}
+                <ThemeProvider defaultTheme="dark" storageKey="vite-ui-theme">
+                    {children}
+                </ThemeProvider>
                 <ScrollRestoration />
                 <Scripts />
             </body>
@@ -46,6 +50,12 @@ export function Layout({ children }: { children: React.ReactNode }) {
 
 export default function App() {
     return <Outlet />;
+}
+
+export function HydrateFallback() {
+    return (
+        <p className="min-h-dvh text-center text-5xl font-bold">Loading...</p>
+    );
 }
 
 export function ErrorBoundary({ error }: Route.ErrorBoundaryProps) {

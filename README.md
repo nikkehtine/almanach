@@ -1,18 +1,21 @@
-# Welcome to React Router!
+# Almanach
 
-A modern, production-ready template for building full-stack React applications using React Router.
+Lorem ipsum dolor sit amet
 
-[![Open in StackBlitz](https://developer.stackblitz.com/img/open_in_stackblitz.svg)](https://stackblitz.com/github/remix-run/react-router-templates/tree/main/default)
+## TO DO
 
-## Features
-
-- 🚀 Server-side rendering
-- ⚡️ Hot Module Replacement (HMR)
-- 📦 Asset bundling and optimization
-- 🔄 Data loading and mutations
-- 🔒 TypeScript by default
-- 🎉 TailwindCSS for styling
-- 📖 [React Router docs](https://reactrouter.com/)
+- [ ] To Do app
+- [ ] Use state management solution (Zustand or Jotai)
+- [ ] Database and authentication (Supabase)
+- [x] Routing (React Router)
+- [x] Tailwind + Shadcn
+- [ ] Add notes
+- [ ] Markdown renderer
+- [ ] Code block highlighting (rehype-highlight)
+- [ ] Color theme (Ayu, Tokyo Night, Catppuccin, Winter Is Coming)
+- [ ] Font (Fira + Fira Mono, Roboto + Roboto Mono, Lato Inconsolata)
+- [ ] Drag and drop for reordering
+- [ ] Hotkeys (react-hotkeys-hook | ctrl+k search, ctrl+shift+p command pallette)
 
 ## Getting Started
 
@@ -77,10 +80,6 @@ Make sure to deploy the output of `npm run build`
 │   ├── client/    # Static assets
 │   └── server/    # Server-side code
 ```
-
-## Styling
-
-This template comes with [Tailwind CSS](https://tailwindcss.com/) already configured for a simple default starting experience. You can use whatever CSS framework you prefer.
 
 ---
 
