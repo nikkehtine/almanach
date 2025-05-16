@@ -3,11 +3,11 @@ import { Welcome } from "~/welcome/welcome";
 
 export function meta({}: Route.MetaArgs) {
     return [
-        { title: "Almanach" },
+        { title: "About Almanach" },
         { name: "description", content: "Open source note taking app" },
     ];
 }
 
-export default function Home() {
+export default function About() {
     return <Welcome />;
 }

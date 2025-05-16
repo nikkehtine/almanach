@@ -81,6 +81,13 @@ Make sure to deploy the output of `npm run build`
 │   └── server/    # Server-side code
 ```
 
+### Credits
+
+- Light version homepage background image by [Valery Fedotov](https://unsplash.com/@imlst) on [Unsplash](https://unsplash.com/photos/silver-macbook-beside-black-iphone-5-9F7jQr-kkT0)
+- Dark version homepage background image by [Samuel Angor](https://unsplash.com/@sammysays___) on [Unsplash](https://unsplash.com/photos/a-laptop-computer-sitting-on-top-of-a-desk-NVdhhp95jnA)
+
+Images use the royaty-free [Unsplash License](https://unsplash.com/license)
+
 ---
 
 Built with ❤️ using React Router.
