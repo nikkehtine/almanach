@@ -1,0 +1,9 @@
+{
+  "name": "almanach",
+  "private": true,
+  "scripts": {
+    "dev": "docker compose up"
+  },
+  "license": "MIT",
+  "packageManager": "pnpm@10.19.0"
+}
